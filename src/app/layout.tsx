@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Razah Auto Parts",
   description: "The Official website of Razah Auto Parts",
+  icons: {
+    icon: "/images/logo.png",
+  },
 };
 
 export default function RootLayout({
